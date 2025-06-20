@@ -1,6 +1,10 @@
 import { app } from './app'
 import { env } from './env'
 
+app.get('/', (req, res) => {
+  return res.send('Hello World!')
+})
+
 app
   .listen({
     host: '0.0.0.0', // Listen on all interfaces accessible from the network
