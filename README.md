@@ -1,33 +1,58 @@
-📱 App – GymPass Style
-✅ RFs – Requisitos Funcionais
-🔹 O que o sistema deve fazer (funcionalidades).
+# 📱 GymPass Style – Aplicativo de Check-ins em Academias
 
- [] - Deve ser possível se cadastrar;
- [] - Deve ser possível se autenticar;
- [] - Deve ser possível obter o perfil de um usuário logado;
- [] - Deve ser possível obter o número de check-ins realizados pelo usuário logado;
- [] - Deve ser possível o usuário obter seu histórico de check-ins;
- [] - Deve ser possível o usuário buscar academias próximas;
- [] - Deve ser possível o usuário buscar academias pelo nome;
- [] - Deve ser possível o usuário realizar check-in em uma academia;
- [] - Deve ser possível validar o check-in de um usuário;
- [] - Deve ser possível cadastrar uma academia;
- 
-🧩 RNs – Regras de Negócio
-🔹 Restrições e condições de operação baseadas nas regras da aplicação.
+Aplicativo para controle de check-ins em academias com funcionalidades de autenticação, geolocalização e gerenciamento de usuários e academias. Inspirado na experiência de uso do GymPass.
 
-[] - O usuário não deve poder se cadastrar com um e-mail já existente;
-[] - O usuário não pode fazer dois check-ins no mesmo dia;
-[] - O usuário não pode fazer check-in se não estiver a menos de 100 metros da academia;
-[] - O check-in só pode ser validado até 20 minutos após ser criado;
-[] - O check-in só pode ser validado por administradores;
-[] - A academia só pode ser cadastrada por administradores;
+---
 
-🖥️ RNFs – Requisitos Não-Funcionais
-🔹 Qualidades que o sistema deve apresentar (segurança, desempenho, persistência etc.).
+## 🚀 Tecnologias Utilizadas
 
-[] - A senha do usuário precisa estar criptografada
-[] - Os dados da aplicação precisam estar persistidos em um banco de dados PostgreSQL
-[] - Todas as listas de dados precisam estar paginadas com 20 itens por página
-[] - O usuário deve ser identificado por um JWT (JSON Web Token);
+Este projeto foi desenvolvido utilizando:
 
+- **Node.js** – Plataforma de desenvolvimento backend em JavaScript/TypeScript
+- **Prisma ORM** – Mapeamento objeto-relacional para comunicação com o banco de dados
+- **PostgreSQL** – Banco de dados relacional
+- **JWT (JSON Web Token)** – Autenticação segura baseada em tokens
+- **Princípios SOLID** – Código estruturado com foco em manutenibilidade, escalabilidade e responsabilidade única
+
+---
+
+## ✅ Requisitos Funcionais (RF)
+
+O sistema **deve permitir**:
+
+- [ ] Cadastro de usuários  
+- [ ] Autenticação de usuários (login)  
+- [ ] Consulta ao perfil do usuário autenticado  
+- [ ] Visualização do número total de check-ins do usuário autenticado  
+- [ ] Acesso ao histórico de check-ins  
+- [ ] Busca de academias próximas (geolocalização)  
+- [ ] Busca de academias pelo nome  
+- [ ] Realização de check-in em uma academia  
+- [ ] Validação de check-ins  
+- [ ] Cadastro de novas academias  
+
+---
+
+## 🧩 Regras de Negócio (RN)
+
+O sistema **deve obedecer às seguintes regras**:
+
+- [ ] Não permitir cadastro com e-mail já existente  
+- [ ] Impedir mais de um check-in por dia por usuário  
+- [ ] Check-in permitido apenas se o usuário estiver a no máximo 100 metros da academia  
+- [ ] Validação do check-in deve ocorrer em até 20 minutos após sua criação  
+- [ ] Apenas administradores podem validar check-ins  
+- [ ] Apenas administradores podem cadastrar academias  
+
+---
+
+## 🖥️ Requisitos Não Funcionais (RNF)
+
+O sistema **deve atender aos seguintes critérios técnicos**:
+
+- [ ] Senhas dos usuários devem ser armazenadas de forma criptografada  
+- [ ] Os dados da aplicação devem ser persistidos em um banco de dados **PostgreSQL**  
+- [ ] Listagens de dados devem ser paginadas (20 itens por página)  
+- [ ] Autenticação deve ser feita via **JWT (JSON Web Token)**  
+
+---
