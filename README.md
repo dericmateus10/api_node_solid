@@ -37,7 +37,7 @@ O sistema **deve permitir**:
 
 O sistema **deve obedecer às seguintes regras**:
 
-- [ ] Não permitir cadastro com e-mail já existente  
+- [x] Não permitir cadastro com e-mail já existente  
 - [ ] Impedir mais de um check-in por dia por usuário  
 - [ ] Check-in permitido apenas se o usuário estiver a no máximo 100 metros da academia  
 - [ ] Validação do check-in deve ocorrer em até 20 minutos após sua criação  
@@ -50,8 +50,8 @@ O sistema **deve obedecer às seguintes regras**:
 
 O sistema **deve atender aos seguintes critérios técnicos**:
 
-- [ ] Senhas dos usuários devem ser armazenadas de forma criptografada  
-- [ ] Os dados da aplicação devem ser persistidos em um banco de dados **PostgreSQL**  
+- [x] Senhas dos usuários devem ser armazenadas de forma criptografada  
+- [x] Os dados da aplicação devem ser persistidos em um banco de dados **PostgreSQL**  
 - [ ] Listagens de dados devem ser paginadas (20 itens por página)  
 - [ ] Autenticação deve ser feita via **JWT (JSON Web Token)**  
 
