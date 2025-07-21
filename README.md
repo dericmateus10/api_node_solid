@@ -20,14 +20,14 @@ Este projeto foi desenvolvido utilizando:
 
 O sistema **deve permitir**:
 
-- [ ] Cadastro de usuários  
-- [ ] Autenticação de usuários (login)  
-- [ ] Consulta ao perfil do usuário autenticado  
+- [x] Cadastro de usuários  
+- [x] Autenticação de usuários (login)  
+- [x] Consulta ao perfil do usuário autenticado  
 - [ ] Visualização do número total de check-ins do usuário autenticado  
 - [ ] Acesso ao histórico de check-ins  
 - [ ] Busca de academias próximas (geolocalização)  
 - [ ] Busca de academias pelo nome  
-- [ ] Realização de check-in em uma academia  
+- [x] Realização de check-in em uma academia  
 - [ ] Validação de check-ins  
 - [ ] Cadastro de novas academias  
 
@@ -38,8 +38,8 @@ O sistema **deve permitir**:
 O sistema **deve obedecer às seguintes regras**:
 
 - [x] Não permitir cadastro com e-mail já existente  
-- [ ] Impedir mais de um check-in por dia por usuário  
-- [ ] Check-in permitido apenas se o usuário estiver a no máximo 100 metros da academia  
+- [x] Impedir mais de um check-in por dia por usuário  
+- [x] Check-in permitido apenas se o usuário estiver a no máximo 100 metros da academia  
 - [ ] Validação do check-in deve ocorrer em até 20 minutos após sua criação  
 - [ ] Apenas administradores podem validar check-ins  
 - [ ] Apenas administradores podem cadastrar academias  
