@@ -29,7 +29,7 @@ O sistema **deve permitir**:
 - [ ] Busca de academias pelo nome  
 - [x] Realização de check-in em uma academia  
 - [ ] Validação de check-ins  
-- [ ] Cadastro de novas academias  
+- [x] Cadastro de novas academias  
 
 ---
 
