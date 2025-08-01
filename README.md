@@ -24,7 +24,7 @@ O sistema **deve permitir**:
 - [x] Autenticação de usuários (login)  
 - [x] Consulta ao perfil do usuário autenticado  
 - [ ] Visualização do número total de check-ins do usuário autenticado  
-- [ ] Acesso ao histórico de check-ins  
+- [x] Acesso ao histórico de check-ins  
 - [ ] Busca de academias próximas (geolocalização)  
 - [ ] Busca de academias pelo nome  
 - [x] Realização de check-in em uma academia  
@@ -52,7 +52,7 @@ O sistema **deve atender aos seguintes critérios técnicos**:
 
 - [x] Senhas dos usuários devem ser armazenadas de forma criptografada  
 - [x] Os dados da aplicação devem ser persistidos em um banco de dados **PostgreSQL**  
-- [ ] Listagens de dados devem ser paginadas (20 itens por página)  
+- [x] Listagens de dados devem ser paginadas (20 itens por página)  
 - [ ] Autenticação deve ser feita via **JWT (JSON Web Token)**  
 
 ---
