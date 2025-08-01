@@ -23,7 +23,7 @@ O sistema **deve permitir**:
 - [x] Cadastro de usuários  
 - [x] Autenticação de usuários (login)  
 - [x] Consulta ao perfil do usuário autenticado  
-- [ ] Visualização do número total de check-ins do usuário autenticado  
+- [x] Visualização do número total de check-ins do usuário autenticado  
 - [x] Acesso ao histórico de check-ins  
 - [ ] Busca de academias próximas (geolocalização)  
 - [ ] Busca de academias pelo nome  
