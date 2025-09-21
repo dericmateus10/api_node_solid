@@ -25,10 +25,10 @@ O sistema **deve permitir**:
 - [x] Consulta ao perfil do usuário autenticado  
 - [x] Visualização do número total de check-ins do usuário autenticado  
 - [x] Acesso ao histórico de check-ins  
-- [ ] Busca de academias próximas (geolocalização)  
-- [ ] Busca de academias pelo nome  
+- [x] Busca de academias próximas (geolocalização) até (10km) 
+- [x] Busca de academias pelo nome  
 - [x] Realização de check-in em uma academia  
-- [ ] Validação de check-ins  
+- [x] Validação de check-ins  
 - [x] Cadastro de novas academias  
 
 ---
@@ -40,7 +40,7 @@ O sistema **deve obedecer às seguintes regras**:
 - [x] Não permitir cadastro com e-mail já existente  
 - [x] Impedir mais de um check-in por dia por usuário  
 - [x] Check-in permitido apenas se o usuário estiver a no máximo 100 metros da academia  
-- [ ] Validação do check-in deve ocorrer em até 20 minutos após sua criação  
+- [x] Validação do check-in deve ocorrer em até 20 minutos após sua criação  
 - [ ] Apenas administradores podem validar check-ins  
 - [ ] Apenas administradores podem cadastrar academias  
 
